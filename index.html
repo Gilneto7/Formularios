@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentoria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="forms">
+    <div class="page">
+        <header>
+            <h1>Mentoria</h1>
+            <p>Preencha o formulário abaixo para <br> agendar a sua mentoria</p>
+        </header>
+        <form id="my-form">
+        <fieldset>
+           <div class="person">INFORMAÇÕES PESSOAIS</div>
+           <div class="line"></div>
+           <div class="info">
+                <div class="forms-name"> 
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" required minlength="3">
+                </div>
+                <div class="forms-surname">   
+                    <label for="surname">Sobrenome</label>
+                    <input type="text" id="surname">
+                </div>     
+            </div>
+                <div class="mail">
+                    <label for="email">Email<span>(digite um email válido)</span></label>
+                    <input type="email"  id="email">
+                </div>
+                    <div class="pin">
+                        <label for="senha">Senha<span>(mínimo de 6 caracteres)</span></label>
+                        <input type="password"  id="senha">
+                    </div>
+
+                        <div class="person">INFORMAÇÕES DO MENTOR</div>
+                            <div class="line" id="linha2"></div>
+
+                            <div class="mentor-name">
+                                <label for="mentor">Nome do seu mentor<span>(só o primeiro nome)</span></label>
+                                <input type="text" id="mentor">
+                            </div>
+
+                                <div class="hours">
+                                    <div class="person"> SEUS HORÁRIOS DSIPONÍVEIS</div>
+                                    <div class="line"></div>
+                                </div>
+                                <div class="person">PRIMEIRO HORÁRIO</div>
+                                    <div class="mentoria">
+                                        <div class="primeira">
+                                            <label for="data">Data<span>(DD/MM/AAAA)</span></label>
+                                            <input type="date" id="data" >
+                                        </div>    
+                                        <div class="hours-primeira"> 
+                                            <label for="inicio">Das</label>
+                                            <input type="time"  id="inicio">
+                                        </div>  
+                                        <div class="hours-final"> 
+                                            <label for="fim">Até</label>
+                                            <input type="time" id="fim">
+                                        </div>    
+                                        
+                                    </div>
+                                    <div class="person">SEGUNDO HORÁRIO</div>
+                                        <div class="mentoria">
+                                            <div class="segunda">
+                                                <label for="data">Data<span>(DD/MM/AAAA)</span></label>
+                                                <input type="date" id="data" >
+                                            </div>    
+                                            <div class="hours-segunda"> 
+                                                <label for="inicio">Das</label>
+                                                <input type="time"  id="inicio">
+                                            </div>  
+                                            <div class="hours-final-segunda"> 
+                                                <label for="fim">Até</label>
+                                                <input type="time" id="fim">
+                                            </div> 
+                                        </div>
+                                           
+
+
+        </fieldset>
+    </form>
+    <footer>
+        
+            <input 
+            class="button"
+            form="my-form" 
+            type="submit" 
+            value="SALVAR">
+        
+    </footer>    
+</div>
+</div>
+</body>
+</html>

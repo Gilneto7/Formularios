@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #efefef;
+    width: 1440px;
+    height: 1930px;
+}
+
+.page {
+    width: 1440px;
+    height: 1930px;
+}
+
+header {
+    width: 1440px;
+}
+
+body::before {
+    content: "";
+    width: 100%;
+    height: 436px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background: #535971 ;
+}
+
+header h1 {
+    color: #FFF;
+    font-family: Staatliches;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 932px 18px 345px;
+    padding-top: 140px;
+    
+}
+
+header p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 678px 58px 345px  ;  
+}
+
+fieldset {
+    width: 622px;
+    height: 956px;
+    background-color: #efefef;
+    margin:0px 345px 0px 345px ;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid #535971;
+    padding: 64px;
+}
+
+div.person {
+    color: #535971;
+    font-family: Staatliches;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 141.667% */
+}
+
+div.line {
+    width: 622px;
+    height: 1px;
+    background: #E6E6F0;
+    border: 1px solid #E6E6F0 ;
+    margin-top: 16px;
+    margin-bottom:36px ;
+}
+
+div.forms-name {
+    color: #4E4958;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+
+div.forms-name input {
+    display: flex;
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+    background: var(--Shapes-02, #FAFAFC);
+}
+
+.forms-name label {
+    margin-bottom: 8px;
+}
+
+div.forms-surname label {
+    color: #4E4958;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+div.forms-surname input {
+    width: 300px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+    background: var(--Shapes-02, #FAFAFC);
+}
+
+div.info {
+    display: flex;
+    gap:22px ;
+    margin-bottom: 16px;
+}
+
+div.mail label {
+    color: #4E4958;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    
+}
+
+div.mail input {
+    width: 622px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+    background: var(--Shapes-02, #FAFAFC);
+}
+
+div.mail span {
+    color: #C1BCCC;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 9px;
+}
+
+div.pin {
+    color: #4E4958;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-top: 16px;
+}
+
+div.pin span {
+    color: #C1BCCC;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    margin-left: 9px;
+}
+
+div.pin input {
+    width: 622px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+    background: var(--Shapes-02, #FAFAFC);
+    margin-bottom: 30px;
+}
+
+div.line#linha2 {
+    margin-top: 8px ;
+    margin-bottom: 32px;
+}
+
+div.mentor-name {
+    color: #4E4958;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+div.mentor-name span {
+    color: #C1BCCC;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    margin-left: 6px;
+}
+
+input#mentor {
+    width: 622px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+    background: var(--Shapes-02, #FAFAFC);
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+div.mentoria {
+    display: flex;
+    gap:32px ;
+    
+}
+
+div.hours-primeira {
+    gap: 10px;
+}
+
+div.primeira label {
+    color: #4E4958;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+div.primeira input#data {
+    width: 300px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+    background: var(--Shapes-02, #FAFAFC);
+}
+div.hours-primeira{
+    gap: 10px;
+}
+div.hours-primeira label, div.hours-final label, div.hours-segunda label, div.segunda label, div.hours-final-segunda label {
+    color: #4E4958;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+div.hours-primeira input, div.hours-final input#data, div.hours-final input#fim, div.hours-final-segunda input, div.hours-segunda input, div.segunda input#data {
+    width: 140px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+    background: var(--Shapes-02, #FAFAFC);
+}
+
+div.segunda input#data {
+    width: 300px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+    background: var(--Shapes-02, #FAFAFC);
+}
+div.segunda span, div.primeira span {
+    color: #C1BCCC;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    margin-left: 6px;
+}
+
+div.segunda label, div.primeira label {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+div.primeira input {
+    margin-bottom: 16px ;
+}
+
+div.segunda input {
+    margin-bottom: 64px;
+}
+
+footer {
+    width: 783px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 20px 20px;
+    background: #535971;
+    margin-left: 345px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer input  {
+    display: flex;
+    width: 608px;
+    height: 55.652px;
+    padding: 15px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FF5374;
+    color: #FFF;
+    font-family: Staatliches;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    
+}
+
+footer input:hover {
+    background: #2fc63b;
+}
+
+input#email:invalid {
+    border: 2px solid red;
+}
